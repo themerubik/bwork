@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+ul , ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,
+body { height: 100% ;font-family: 'Open Sans', sans-serif; }
+body{
+    font-family: 'Muli', sans-serif;
+}
+a:hover { text-decoration: none }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.protfolio-bg-1{background-image: url(../img/protfolio-1.jpg);}
+.protfolio-bg-2{background-image: url(../img/protfolio-2.jpg);}
+.protfolio-bg-3{background-image: url(../img/protfolio-3.png);}
+.protfolio-bg-4{background-image: url(../img/protfolio-4.png);}
+.protfolio-bg-5{background-image: url(../img/protfolio-5.jpg);}
+.protfolio-bg-6{background-image: url(../img/protfolio-6.jpg);}
+.protfolio-bg-7{background-image: url(../img/protfolio-7.jpg);}
+.protfolio-bg-8{background-image: url(../img/protfolio-8.png);}
+.protfolio-bg-9{background-image: url(../img/protfolio-9.jpg);}
+.protfolio-bg-10{background-image: url(../img/protfolio-10.jpg);}
+.protfolio-bg-11{background-image: url(../img/protfolio-11.jpg);}
+
+.logo a {
+    color: #000;
+}
+
+.logo h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.logo h1 span {
+    font-size: 8px;
+    position: absolute;
+    right: -12px;
+    top: 2px;
+}
+
+.menu-trigger span {
+    display: block;
+    height: 2px;
+    width: unset;
+    background-color: #000;
+    transition: .3s;
+}
+
+.menu-trigger span:nth-child(2) {
+    margin: 7px 0;
+}
+
+.menu-trigger {
+    display: inline-block;
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu-trigger:hover span:nth-child(1), .menu-trigger:hover span:nth-child(3) {
+    margin: 0 6px;
+}
+
+.header-area {
+    padding: 40px 30px;
+}
+
+.single-protfolio {
+    float: left;
+    height: 330px;
+    width: 25%;
+    background-size: 100%;
+    background-position: center;
+    display: table;
+    background-color: #000;
+    transition: .5s;
+    
+}
+
+
+.protfolio-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.protfolio-hover a {
+    color: #000;
+}
+
+.protfolio-hover h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.protfolio-hover p {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 600;
+    transition: .3s;
+    padding-top: 15px;
+    letter-spacing: 1px
+}
+
+.protfolio-hover p:hover {
+    opacity: 1;
+}
+
+.single-protfolio:hover .protfolio-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-protfolio:hover {
+    background-size: 120%;
+}
+.single-protfolio.long {
+    height: 660px;
+}
+
+.single-protfolio.boxed {
+    height: 660px;
+    width: 50%;
+}
+
+.footer-area {
+    background-color: #613AD6;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer-area ,.footer-area a {
+    color: #fff;
+    transition: .3s;
+}
+
+.footer-area a {
+    opacity: .7;
+}
+
+.footer-area h2 a {
+    opacity: 1;
+}
+
+.footer-area p {
+    opacity: .8;
+}
+
+.footer-area h2.footer-logo {
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.footer-logo span {
+    font-size: 7px;
+    position: absolute;
+    top: 3px;
+    right: -8px;
+}
+
+.footer-area h2 {
+    font-size: 22px;
+}
+
+.footer-area ul li a:hover {
+    opacity: 1;
+}
+
+.protfolio-list {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 244px;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.hireme-btn {
+  display: inline-block;
+  position: relative;
+}
+.hireme-btn:before {
+  position: absolute;
+  bottom: -10px;
+  height: 1px;
+  width: 100%;
+  content: "";
+  background: #fff;
+  opacity: .3;
+  transition: all .5s;
+}
+.hireme-btn:after {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+  border:1px solid #fff;
+}
+.hireme-btn:hover:after {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  left: 0;
+}
+.protfolio-hover p a {
+    opacity: .5;
+    transition: .3s;
+}
+
+.protfolio-hover p a:hover {
+    opacity: 1;
+}
+.offcanvas-menu {
+    position: fixed;
+    height: 100%;
+    z-index: 99;
+    right: -43%;
+    top: 0;
+    width: 43%;
+    background: #fff;
+    padding: 35px;
+    transition: .4s
+}
+.offcanvas-menu.active {
+   right: 0
+}
+
+.menu-bottom-section {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    max-width: 315px;
+}
+
+.offcanvas-boxed-text {
+    background: #EFEBFF;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.social-icons a {
+    color: #b6b3c1;
+    font-size: 22px;
+    display: inline-block;
+    padding-right: 15px;
+    transition: .3s
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.offcanvas-menu li a {
+    color: #100060;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: inherit;
+    transition: .3s
+}
+
+.offcanvas-menu ul {
+    margin-left: 20px;
+}
+
+.offcanvas-menu-wrap {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.offcanvas-menu-inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 200px;
+}
+.offcanvas-menu ul li a:hover , .social-icons a:hover{
+  color: #613AD6;
+}
+
+.menu-close {
+  position: absolute;
+  right: 0;
+  border-left: 1px solid #E4E4E4;
+  top: 0;
+  height: 100%;
+  width: 70px;
+}
+.menu-close i.fa {
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  line-height: 40px;
+  margin-top: -20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.offcanvas-menu-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s
+}
+.offcanvas-menu-overlay.active{
+    opacity: 0;
+    visibility: visible;
+}
+
+.header-area.headroom--pinned {
+  position: fixed;
+  padding-top: -80px;
+  transition: .3s;
+}
+
+.header-area.headroom--unpinned {
+  padding-top: 40px;
+  transition: .3s;
+}
